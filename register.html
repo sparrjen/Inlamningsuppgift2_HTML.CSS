@@ -10,22 +10,32 @@
     <title>Register</title>
 </head>
 <body>
+    <!-- <nav>
+        <div class="container">
 
+            <div class="header">
+                <h1>We are glad you want to join, please sign up!</h1>
+            </div>
+        </div>  
+    </nav>        -->
     <div class="my-5">
         <div class="container">
+            <div class="header">
+                <h1>We are glad you want to join, please sign up!</h1>
+            </div>
             
             <form class="needs-validation" novalidate>
                 <div class="form-row">
                     <div class="col-md-6 mb-3">
-                        <label for="validationCustom01">First name</label>
-                        <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+                        <label for="firstname">First name</label>
+                        <input type="text" class="form-control" id="firstname" required>
                         <div class="valid-feedback">
                             Looks good!
                         </div>
                     </div>
                     <div class="col-md-6 mb-3">
-                        <label for="validationCustom02">Last name</label>
-                        <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+                        <label for="lastname">Last name</label>
+                        <input type="text" class="form-control" id="lastname" required>
                         <div class="valid-feedback">
                             Looks good!
                         </div>
@@ -33,42 +43,89 @@
                 </div>
                 <div class="form-row">
                     <div class="col-md-6 mb-3">
-                        <label for="validationCustom03">City</label>
-                        <input type="text" class="form-control" id="validationCustom03" required>
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" required>
                         <div class="invalid-feedback">
-                            Please provide a valid city.
+                            Please provide a valid email.
                         </div>
                     </div>
                     <div class="col-md-3 mb-3">
-                        <label for="validationCustom04">State</label>
-                        <select class="custom-select" id="validationCustom04" required>
-                            <option selected disabled value="">Choose...</option>
-                            <option>...</option>
-                        </select>
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" required>
                         <div class="invalid-feedback">
-                            Please select a valid state.
+                            Please provide a password.
+                        </div>
+                    </div>                    
+                    <div class="col-md-3 mb-3">
+                        <label for="confirmPassword">Confirm Password</label>
+                        <input type="password" class="form-control" id="confirmPassword" required>
+                        <div class="invalid-feedback">
+                            Please confirm your password.
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row spacer m-t5">
+                    <div class="col-md-6 mb-3">
+                        <label for="billingadress">Billing Adress</label>
+                        <input type="text" class="form-control" id="billingadress" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid billing street adress.
                         </div>
                     </div>
                     <div class="col-md-3 mb-3">
-                        <label for="validationCustom05">Zip</label>
-                        <input type="text" class="form-control" id="validationCustom05" required>
+                        <label for="billingzipcode">Billing Zip Code</label>
+                        <input type="text" class="form-control" id="billingzipcode" required>
                         <div class="invalid-feedback">
-                            Please provide a valid zip.
+                            Please provide a billing zip code.
+                        </div>
+                    </div>                    
+                    <div class="col-md-3 mb-3">
+                        <label for="billingcity">Billing City</label>
+                        <input type="text" class="form-control" id="billingcity" required>
+                        <div class="invalid-feedback">
+                            Please provide a billing city.
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row mt-2">
+                    <div class="col-md-6 mb-3">
+                        <label for="deliveryadress">Delivery Adress</label>
+                        <input type="text" class="form-control" id="deliveryadress" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid delivery adress.
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="zipcode">Zip Code</label>
+                        <input type="text" class="form-control" id="zipcode" required>
+                        <div class="invalid-feedback">
+                            Please provide a zip code.
+                        </div>
+                    </div>                    
+                    <div class="col-md-3 mb-3">
+                        <label for="city">City</label>
+                        <input type="text" class="form-control" id="city" required>
+                        <div class="invalid-feedback">
+                            Please provide a city.
                         </div>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-                        <label class="form-check-label" for="invalidCheck">
-                            Agree to terms and conditions
-                        </label>
-                        <div class="invalid-feedback">
-                            You must agree before submitting.
-                        </div>
+                        <input class="form-check-input" type="checkbox" value="" id="tacCheck" required>
+                        <label class="form-check-label" for="tacCheck">I agree to the terms and conditions.</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="personaldataCheck" required>
+                        <label class="form-check-label" for="personaldataCheck">I consent to the processing of the personal data that I have provided and declare my agreement with the data protection regulations.</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="marketingCheck" required>
+                        <label class="form-check-label" for="marketingCheck">I would like to recieve the newsletter and marketing information.</label>
                     </div>
                 </div>
-                <button class="btn btn-primary" type="submit">Submit form</button>
+                <button class="btn1 btn-primary" type="submit">Register</button>
+               
             </form>
         </div>
 
