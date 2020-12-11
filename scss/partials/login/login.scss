@@ -1,0 +1,39 @@
+#lgbody {
+    background: rgba(228, 225, 225, 0.479)
+  
+}
+
+.row {
+    background: white;
+    border-radius: 1.187rem;
+    
+}
+
+.no-gutters {
+    margin: 0; 
+}
+
+img {
+    border-top-left-radius: 1.187rem;
+    border-bottom-left-radius: 1.187rem;
+}
+
+.header2 {
+    font-weight: bold;
+}
+
+.btn2 {
+    border: none;
+    outline: none;
+    height: 3.125rem;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 0.3rem;
+    font-weight: bold;
+}
+.btn2:hover {
+    background: white;
+    border: 0.01rem solid;
+    color: black;
+}
