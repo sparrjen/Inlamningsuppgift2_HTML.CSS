@@ -9650,7 +9650,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .spacer {
-  margin-top: 5rem;
+  margin-top: 3rem;
   padding-top: 1.5rem;
   border-top: 4px solid grey;
 }
@@ -9661,7 +9661,28 @@ a.text-dark:hover, a.text-dark:focus {
   text-align: center;
 }
 
-#lgbody {
+#regbody {
+  background: rgba(228, 225, 225, 0.479);
+}
+
+.btn1 {
+  border: none;
+  outline: none;
+  height: 3rem;
+  width: 25%;
+  background-color: #4c4747;
+  color: white;
+  border-radius: 0.3rem;
+  font-weight: bold;
+}
+
+.btn1:hover {
+  background: white;
+  border: 0.01rem solid;
+  color: black;
+}
+
+#loginbody {
   background: rgba(228, 225, 225, 0.479);
 }
 

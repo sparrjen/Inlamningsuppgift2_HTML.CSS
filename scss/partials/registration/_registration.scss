@@ -1,0 +1,19 @@
+#regbody {
+    background: rgba(228, 225, 225, 0.479)  
+}
+
+.btn1 {
+    border: none;
+    outline: none;
+    height: 3rem;
+    width: 25%;
+    background-color: rgb(76, 71, 71);
+    color: white;
+    border-radius: 0.3rem;
+    font-weight: bold;
+}
+.btn1:hover {
+    background: white;
+    border: 0.01rem solid;
+    color: black;
+}
