@@ -9689,13 +9689,14 @@ a.text-dark:hover, a.text-dark:focus {
 .row {
   background: white;
   border-radius: 1.187rem;
+  box-shadow: 12px 12 px 22px grey;
 }
 
 .no-gutters {
   margin: 0;
 }
 
-img {
+#concert {
   border-top-left-radius: 1.187rem;
   border-bottom-left-radius: 1.187rem;
 }
